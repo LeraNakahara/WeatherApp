@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "weather.css">
+    <title>Weather</title>
+</head>
+<body>
+    <section class="weather_container">
+
+        <form action = ""  class = "searching" id = "form">
+        <input type = "text" class = "search-input" placeholder = "Найти местоположение">
+        <button class="find" type = "submit">
+            <img src="search.png" alt="iconsearch">
+        </button>
+        </from>
+
+        <p class="weather_city"></p>
+            <img src=" "  class = "weather_img">
+       
+        <p class="temperature">&deg;</p>
+
+        <section class = "weatherinf">
+        <div class="weather_info">
+            <p><img src="persure.svg" alt="wind">Давление</p>
+            <p><img src="wind.svg" alt="wind">Ветер</p>
+            <p><img src="humidity.svg" alt="humidity">Влажность</p>
+            <!--<p><img src="sunset.svg" alt="sunset">Заход солнца</p>
+            <p><img src="raindrops.svg" alt="raindrops">Осадки</p>
+            <p><img src="sunset.svg" alt="">Восход солнца</p>-->
+        </div>
+
+        <div class="weather_results">
+            <p class="presure" id = "pressure"></p>
+            <p class="wind" id = "wind"></p>
+            <p class="humidity" id = "humidity"></p>
+            <!--<p class="sunset" id = "sunset"></p>
+            <p class="raindrops" id = "precipitation"></p>
+            <p class="dawn" id = "sunrise"></p>-->
+        </div>
+    </section>
+    </section>
+    <script src = "weather.js"></script>
+</body>
+</html>
